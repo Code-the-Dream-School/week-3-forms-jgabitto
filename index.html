@@ -1,16 +1,359 @@
-<DOCTYPE! HTML>
-<html >
+<!doctype html>
+<html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <title>Forms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
-    <link href= "index.css" rel="stylesheet"></link>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css" />
+    <link rel="stylesheet" href="./index.css">
+
+    <title>Hello, world!</title>
   </head>
   <body>
 
+    <header>
+      <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+        <div class="container">
+          <a class="navbar-brand" href="#">Space Place</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+              </li>
+            </ul> -->
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+          <div class="container">
+            <div class="row">
+              <div class="content col-md-12 text-center">
+                <h1 class="text-uppercase mb-0 pt-md-5 pt-5"><strong>In a galaxy far, far away...</strong></h1>
+                <hr class="my-4">
+                <h5 class="text-uppercase mb-4"><strong>Gallery of Galaxies</strong></h5>
+                <a class="btn btn-outline-light mr-1" data-toggle="modal" data-target="#registerModal" href="#">Register</a>
+                <a class="btn btn-outline-light" data-toggle="modal" data-target="#surveyModal">Survey</a>
+              </div>
+            </div>
+          </div>
+    </header>
 
-    <script type="text/javascript" src="weather.js"></script>
+    <div class="main container">
+      <div class="top-section row">
+        <div class="col-md-6">
+          <h1 class="text-center">NGC 4414</h1>
+          <img src="./img/NGC_4414.jpg" class="rounded img-fluid" alt="">
+        </div>
+        <div class="col-md-6"><p>NGC 4414 is an unbarred spiral galaxy about 62 million light-years away in the constellation Coma Berenices. It is a flocculent spiral galaxy, with short segments of spiral structure but without the dramatic well-defined spiral arms of a grand design spiral. In 1974 a supernova, SN 1974G, was observed and was the only supernova in this galaxy to be recorded until June 7, 2013 when SN 2013df was discovered at magnitude 14.</p></div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 order-md-1"><p class="">Pierre Méchain, the discoverer of Messier 101, described it as a "nebula without star, very obscure and pretty large, 6' to 7' in diameter, between the left hand of Bootes and the tail of the great Bear. It is difficult to distinguish when one lits the [grating] wires. M101 is a large galaxy, with a diameter of 170,000 light-years. By comparison, the Milky Way has a diameter of 100,000 light years. It has around a trillion stars, twice the number in the Milky Way. It has a disk mass on the order of 100 billion solar masses, along with a small central bulge of about 3 billion solar masses.</p></div>
+        <div class="col-md-6 order-md-2">
+          <h1 class="text-center">M101</h1>
+          <img src="./img/pinwheel.jpg" class="rounded img-fluid" alt="">
+        </div>
+      </div>
+      <div class="bottom-section row">
+        <div class="col-md-4">
+          <h1 class="text-center">Milky Way</h1>
+          <img src="./img/Milky_Way_Arch.jpg" class="rounded img-fluid" alt="">
+          <p>The Milky Way is a barred spiral galaxy with a visible diameter between 150,000 and 200,000 light-years (ly). It is estimated to contain 100–400 billion stars and at least that number of planets. The dark matter halo around the Milky Way may span as much as 2 million light years. The Solar System is located at a radius of about 27,000 light-years from the Galactic Center, on the inner edge of the Orion Arm, one of the spiral-shaped concentrations of gas and dust. The stars in the innermost 10,000 light-years form a bulge and one or more bars that radiate from the bulge. The galactic center is an intense radio source known as Sagittarius A*, a supermassive black hole of 4.100 (± 0.034) million solar masses.</p>
+        </div>
+        <div class="col-md-4">
+          <h1 class="text-center">Andromeda</h1>
+          <img src="./img/andromeda.jpg" class="rounded img-fluid" alt="">
+          <p>Andromeda Nebula is a barred spiral galaxy approximately 2.5 million light-years (770 kiloparsecs) from Earth, and the nearest major galaxy to the Milky Way. The galaxy's name stems from the area of Earth's sky in which it appears, the constellation of Andromeda, which itself is named after the Ethiopian (or Phoenician) princess who was the wife of Perseus in Greek Mythology. The virial mass of the Andromeda Galaxy is of the same order of magnitude as that of the Milky Way, at 1 trillion solar masses (2.0×1042 kilograms). The mass of either galaxy is difficult to estimate with any accuracy, but it was long thought that the Andromeda Galaxy is more massive than the Milky Way by a margin of some 25% to 50%.</p>
+        </div>
+        <div class="col-md-4">
+          <h1 class="text-center">Whirlpool Galaxy</h1>
+          <img src="./img/m51-and-companion_0.jpg" class="rounded img-fluid" alt="">
+          <p>The Whirlpool Galaxy, also known as Messier 51a, M51a, and NGC 5194, is an interacting grand-design spiral galaxy with a Seyfert 2 active galactic nucleus. It lies in the constellation Canes Venatici, and was the first galaxy to be classified as a spiral galaxy. Its distance is estimated to be 23 million light-years away from Earth. Whirlpool Galaxy lies 23 million light years from Earth and has an estimated diameter of 76,000 light years. Overall the galaxy is about 43% the size of the Milky Way. Its mass is estimated to be 160 billion solar masses or around 10.3% of the mass of Milky Way Galaxy. A black hole, once thought to be surrounded by a ring of dust, but now believed to be partially occluded by dust instead, exists at the heart of the spiral. A pair of ionization cones extend from the active galactic nucleus.</p>
+        </div>
+      </div>
+      <div id="about" class="about-section row">
+        <div class="col-12 text-center">
+          <h1><u>About</u></h1>
+          <h3>Thanks for coming! If you would like us to add more galaxies, send us an email!</h3>
+          <h6>All descriptions used were taken from wikipedia.</h6>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Register Modal -->
+    <div class="modal fade" id="registerModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Register User</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Name" required>
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Last Name" required>
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">
+                      <img class="img-responsive" src="./icons/phone.svg" alt="">
+                    </span>
+                  </div>
+                  <input type="tel" class="form-control" placeholder="Format: xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">
+                      <img class="img-responsive" src="./icons/email.png" alt="">
+                    </span>
+                  </div>
+                  <input type="email" class="form-control" placeholder="name@example.com" required>
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col input-group">
+                  <!-- <div class="input-group-prepend">
+                    <span class="input-group-text">
+                      <img class="img-responsive" src="./icons/calendar.png" alt="">
+                    </span>
+                  </div>
+                  <input id="datefield" type="date" class="form-control" placeholder="Format: 0123456789"> -->
+                  <div class="input-group date" id="datetimepicker4" data-target-input="nearest">
+                    <div class="input-group-prepend" data-target="#datetimepicker4" data-toggle="datetimepicker">
+                      <span class="input-group-text">
+                        <img class="img-responsive" src="./icons/calendar.png" alt="">
+                      </span>
+                    </div>
+                    <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker4" required/>
+                </div>
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col input-group">
+                  <!-- <div class="input-group-prepend">
+                    <span class="input-group-text">
+                      <img class="img-responsive" src="./icons/clock.svg" alt="">
+                    </span>
+                  </div>
+                  <input type="time" class="form-control" min="10:00" max="0:00" step="1800" placeholder="Format: 0123456789"> -->
+                  <div class="input-group timepicker" id="datetimepicker3" data-target-input="nearest">
+                    <div class="input-group-prepend" data-target="#datetimepicker3" data-toggle="datetimepicker">
+                      <span class="input-group-text">
+                        <img class="img-responsive" src="./icons/clock.svg" alt="">
+                      </span>
+                    </div>
+                    <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker3"/>
+                </div>
+                </div>
+                <div class="col input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">
+                      <img class="img-responsive" src="./icons/person.svg" alt="">
+                    </span>
+                  </div>
+                  <select class="form-control" id="exampleFormControlSelect1" required>
+                    <option>1 person</option>
+                    <option>2 people</option>
+                    <option>3 people</option>
+                    <option>4 people</option>
+                    <option>5 people</option>
+                    <option>6 people</option>
+                    <option>7 people</option>
+                    <option>8 people</option>
+                    <option>9 people</option>
+                    <option>10 people</option>
+                    <option>11 people</option>
+                    <option>12 people</option>
+                    <option>13 people</option>
+                    <option>14 people</option>
+                    <option>15 people</option>
+                    <option>17 people</option>
+                    <option>18 people</option>
+                    <option>19 people</option>
+                    <option>20 people</option>
+                  </select>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Register</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Survey Modal -->
+    <div class="modal fade" id="surveyModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Satisfaction Survey</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group row">
+                <div class="col">
+                  <label for="Name">Name</label>
+                  <input id="Name" type="text" class="form-control" placeholder="Name" required>
+                </div>
+                <div class="col">
+                  <label for="lastName">Last Name</label>
+                  <input id="lastName" type="text" class="form-control" placeholder="Last Name" required>
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col">
+                  <label for="emailAddress">Email Address</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">
+                        <img class="img-responsive" src="./icons/email.png" alt="">
+                      </span>
+                    </div>
+                    <input type="email" class="form-control" placeholder="name@example.com" required>
+                  </div>
+                </div>
+                <div class="col">
+                  <label for="phone">Phone</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">
+                        <img class="img-responsive" src="./icons/phone.svg" alt="">
+                      </span>
+                    </div>
+                    <input type="tel" class="form-control" placeholder="Format: xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col">
+                  <label for="phone">Favorite Galaxy</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">
+                        <img class="img-responsive" src="./icons/person.svg" alt="">
+                      </span>
+                    </div>
+                    <select class="form-control" id="exampleFormControlSelect1" required>
+                      <option>Milky Way</option>
+                      <option>Andromeda</option>
+                      <option>M101</option>
+                      <option>Whirlpool Galaxy</option>
+                      <option>NGC 4414</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="guestRadio" id="userRadio" value="user" checked>
+                    <label class="form-check-label" for="userRadio">
+                      Registered User
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="guestRadio" id="guestRadio" value="guest">
+                    <label class="form-check-label" for="guestRadio">
+                      Guest
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-12">
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Tell us about your experience?</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-12">
+                  <label for="exampleFormControlTextarea1">Upload an image from your telescope!</label>
+                  <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="customFile">
+                    <label class="custom-file-label" for="customFile">Choose file</label>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
+
+  <script>
+
+      $(function () {
+        $('#datetimepicker4').datetimepicker({
+            format: 'L',
+            minDate: new Date()
+          });
+      });
+
+      $(function () {
+                $('#datetimepicker3').datetimepicker({
+                  format: 'LT',
+                  stepping: 30,
+                  minDate: moment({h:10}),
+                  maxDate: moment({h:24})
+                });
+            });
+    
+      $(function () {
+        $(document).scroll(function() {
+        var $nav = $("#mainNavbar");
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+
+  </script>
   </body>
 </html>

@@ -1,4 +1,85 @@
-body{
+html, body{
   margin: 0;
   padding: 0;
+  background-color: #222629;
+  font-family: 'Raleway', sans-serif;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-nav .nav-link  {
+  font-weight: 700;
+  color: white;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, 
+.navbar-dark .navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav .nav-link.show, 
+.navbar-dark .navbar-nav .show>.nav-link {
+  font-weight: 700;
+  color: #6B6E70;
+}
+
+.display-4 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+header {
+  color: white;
+
+  /* The image used */
+  background-image: url("./img/background_img.jpeg");
+
+  /* Full height */
+  height: 40rem;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  margin-top: 150px;
+}
+
+.main {
+  margin-top: 100px;
+  color: white;
+}
+
+.bottom-section {
+  margin-top: 10rem;
+}
+
+.bottom-section p {
+  margin-top: 1rem;
+}
+
+.about-section {
+  margin-top: 4rem;
+}
+
+p {
+  margin-top: 8rem;
+}
+
+.btn.btn-outline-light:hover {
+  color: black;
+  background-color: white;
+  border-color: white;
+
+}
+
+.navbar.scrolled {
+  background: #110c11;
+  transition: background 500ms;
+}
+
+span img{
+  width:1.2rem;
 }
